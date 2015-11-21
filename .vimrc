@@ -12,6 +12,9 @@ Plugin 'michalbachowski/vim-wombat256mod'
 Plugin 'cdmedia/itg_flat_vim'
 
 Plugin 'majutsushi/tagbar'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-endwise'
+Plugin 'thoughtbot/vim-rspec'
 
 " all of your Plugins must be added before the following line
 call vundle#end()                 " required

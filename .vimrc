@@ -58,3 +58,12 @@ inoremap <ESC>h <ESC><C-w>h
 inoremap <ESC>l <ESC><C-w>l
 inoremap <ESC>j <ESC><C-w>j
 inoremap <ESC>k <ESC><C-w>k
+
+"Create and close splits with <ESC> / alt + c,s,v
+"
+" c  closes current split
+" s  creates a new horizontal split
+" v  creates a new vertical split
+noremap <silent> <ESC>c <C-w>c
+noremap <silent> <ESC>s <C-w>s
+noremap <silent> <ESC>v <C-w>v

@@ -116,3 +116,5 @@ nnoremap <Leader>w :w<CR>
 nnoremap <Leader>x :x<CR>
 nnoremap <Leader>q :q<CR>
 nnoremap <Leader>e :vsp<Space>
+
+set lazyredraw                    " this might help with lag caused by relativenumber

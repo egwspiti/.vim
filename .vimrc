@@ -24,3 +24,4 @@ set noruler                       " Don't show cursor position.
 set wrap                          " Turn on line wrapping.
 set scrolloff=3                   " Show 3 lines of context around the cursor.
 set title                         " Set window title for this terminal.
+set novisualbell                  " No beeping.

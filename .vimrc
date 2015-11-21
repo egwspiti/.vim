@@ -11,3 +11,5 @@ syntax on
 filetype indent plugin on
 
 runtime macros/matchit.vim
+
+set showcmd                       " Display incomplete commands.

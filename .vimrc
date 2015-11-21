@@ -70,3 +70,7 @@ noremap <silent> <ESC>v <C-w>v
 
 "Select all with <ESC> / Alt + a
 noremap <silent> <ESC>a ggVG
+
+"Emacs-like beginning and end of line at insert mode.
+imap <C-e> <C-o>$
+imap <C-a> <C-o>^

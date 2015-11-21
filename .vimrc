@@ -15,3 +15,4 @@ runtime macros/matchit.vim
 set showcmd                       " Display incomplete commands.
 set showmode                      " Display the mode we are in.
 set backspace=indent,eol,start    " Intuitive backspacing.
+set hidden                        " Handle multiple buffers better.

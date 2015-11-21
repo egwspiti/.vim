@@ -139,3 +139,10 @@ let g:tagbar_zoomwidth=1          " use the width of the longest visible tag.
 let g:tagbar_autofocus=1          " Move cursor to Tagbar window.
 let g:tagbar_show_linenumbers=0
 let g:tagbar_iconchars=['▸', '▾']
+
+" vim-rspec
+"
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>

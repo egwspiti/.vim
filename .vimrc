@@ -81,3 +81,9 @@ set keymodel=startsel
 
 "Toggle pastemode with <F2>
 set pastetoggle=<F2>
+
+"Leader mapppings
+"
+"
+"Space as Leader
+let mapleader = "\<Space>"

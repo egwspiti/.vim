@@ -3,3 +3,6 @@ filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+
+set number
+set numberwidth=4

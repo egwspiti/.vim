@@ -120,3 +120,8 @@ nnoremap <Leader>q :q<CR>
 nnoremap <Leader>e :vsp<Space>
 
 set lazyredraw                    " this might help with lag caused by relativenumber
+
+if executable('ag')
+	" Prefer ag over grep.
+	set grepprg=ag\ --nogroup\ --nocolor\ --hidden
+endif

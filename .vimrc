@@ -87,3 +87,15 @@ set pastetoggle=<F2>
 "
 "Space as Leader
 let mapleader = "\<Space>"
+
+"Clear highlighted search results with <Leader>/
+nmap <silent> <Leader>/ :nohlsearch<CR>
+"Linewise visual mode with <Leader><Leader>
+nmap <Leader><Leader> V
+"Close a buffer without destroying its window with <Leader>c
+nnoremap <Leader>c :bp \| bd #<CR>
+
+nnoremap <Leader>w :w<CR>
+nnoremap <Leader>x :x<CR>
+nnoremap <Leader>q :q<CR>
+nnoremap <Leader>e :vsp<Space>

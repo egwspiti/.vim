@@ -28,3 +28,4 @@ set novisualbell                  " No beeping.
 set nobackup                      " Don't make a backup before overwriting a file.
 set nowritebackup                 " And again.
 set laststatus=2                  " Always show a status line.
+set encoding=utf-8                " Use utf-8 encoding.

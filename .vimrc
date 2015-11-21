@@ -67,3 +67,6 @@ inoremap <ESC>k <ESC><C-w>k
 noremap <silent> <ESC>c <C-w>c
 noremap <silent> <ESC>s <C-w>s
 noremap <silent> <ESC>v <C-w>v
+
+"Select all with <ESC> / Alt + a
+noremap <silent> <ESC>a ggVG

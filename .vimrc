@@ -50,8 +50,9 @@ noremap <silent> <C-n> :bn<CR>
 
 "Usually, most terms sends <ESC> when Alt is pressed.
 "
-"
+
 "Navigate splits with <ESC> / alt + h,j,k,l
+"
 noremap <silent> <ESC>h <C-w>h
 noremap <silent> <ESC>l <C-w>l
 noremap <silent> <ESC>j <C-w>j

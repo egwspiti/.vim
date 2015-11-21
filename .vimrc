@@ -6,3 +6,5 @@ call vundle#begin()
 
 set number
 set numberwidth=4
+
+syntax on

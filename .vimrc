@@ -14,6 +14,7 @@ Plugin 'cdmedia/itg_flat_vim'
 " all of your Plugins must be added before the following line
 call vundle#end()                 " required
 
+colo itg_flat                     " Use itg_flat color scheme.
 set number
 set numberwidth=4
 

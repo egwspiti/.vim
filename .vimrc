@@ -31,3 +31,4 @@ set laststatus=2                  " Always show a status line.
 set encoding=utf-8                " Use utf-8 encoding.
 set incsearch                     " Incremental search.
 set hlsearch                      " And highlight matches.
+set autowrite                     " Write a modified buffer on ctrl-z, :next, ...

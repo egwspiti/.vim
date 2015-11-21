@@ -37,3 +37,17 @@ set splitright                    " On :vsplit, put new window to the right.
 "Map CTRL P/N to cycle through buffers.
 noremap <silent> <C-p> :bp<CR>
 noremap <silent> <C-n> :bn<CR>
+
+"Usually, most terms sends <ESC> when Alt is pressed.
+"
+"
+"Navigate splits with <ESC> / alt + h,j,k,l
+noremap <silent> <ESC>h <C-w>h
+noremap <silent> <ESC>l <C-w>l
+noremap <silent> <ESC>j <C-w>j
+noremap <silent> <ESC>k <C-w>k
+"insert mode, too.
+inoremap <ESC>h <ESC><C-w>hi
+inoremap <ESC>l <ESC><C-w>li
+inoremap <ESC>j <ESC><C-w>ji
+inoremap <ESC>k <ESC><C-w>ki

@@ -17,3 +17,4 @@ set showmode                      " Display the mode we are in.
 set backspace=indent,eol,start    " Intuitive backspacing.
 set hidden                        " Handle multiple buffers better.
 set wildmenu                      " Enhanced command line completion.
+set wildmode=list:longest         " Complete files like a shell.

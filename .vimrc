@@ -11,6 +11,9 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'michalbachowski/vim-wombat256mod'
 Plugin 'cdmedia/itg_flat_vim'
 
+" all of your Plugins must be added before the following line
+call vundle#end()                 " required
+
 set number
 set numberwidth=4
 

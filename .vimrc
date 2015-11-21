@@ -1,4 +1,5 @@
 set nocompatible
+set nomodeline                    " Disable modelines.
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim

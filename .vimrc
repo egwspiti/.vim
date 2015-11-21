@@ -9,3 +9,5 @@ set numberwidth=4
 
 syntax on
 filetype indent plugin on
+
+runtime macros/matchit.vim

@@ -47,7 +47,14 @@ noremap <silent> <ESC>l <C-w>l
 noremap <silent> <ESC>j <C-w>j
 noremap <silent> <ESC>k <C-w>k
 "insert mode, too.
-inoremap <ESC>h <ESC><C-w>hi
-inoremap <ESC>l <ESC><C-w>li
-inoremap <ESC>j <ESC><C-w>ji
-inoremap <ESC>k <ESC><C-w>ki
+"
+" Should investigate <ESC> timing more before enabling this.
+"
+" inoremap <ESC>h <ESC><C-w>hi
+" inoremap <ESC>l <ESC><C-w>li
+" inoremap <ESC>j <ESC><C-w>ji
+" inoremap <ESC>k <ESC><C-w>ki
+inoremap <ESC>h <ESC><C-w>h
+inoremap <ESC>l <ESC><C-w>l
+inoremap <ESC>j <ESC><C-w>j
+inoremap <ESC>k <ESC><C-w>k

@@ -78,3 +78,6 @@ imap <C-a> <C-o>^
 "Shift + special movement key (<S-Left>, etc.) starts select mode
 set selectmode=key
 set keymodel=startsel
+
+"Toggle pastemode with <F2>
+set pastetoggle=<F2>

@@ -8,3 +8,4 @@ set number
 set numberwidth=4
 
 syntax on
+filetype indent plugin on

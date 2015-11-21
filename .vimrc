@@ -11,6 +11,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'michalbachowski/vim-wombat256mod'
 Plugin 'cdmedia/itg_flat_vim'
 
+Plugin 'majutsushi/tagbar'
+
 " all of your Plugins must be added before the following line
 call vundle#end()                 " required
 
@@ -125,3 +127,12 @@ if executable('ag')
 	" Prefer ag over grep.
 	set grepprg=ag\ --nogroup\ --nocolor\ --hidden
 endif
+
+"tagbar
+"
+nnoremap <silent> <F9> :TagbarToggle<CR>
+let g:tagbar_left=1               " open Tagbar window on the left-hand side of vim.
+let g:tagbar_zoomwidth=1          " use the width of the longest visible tag.
+let g:tagbar_autofocus=1          " Move cursor to Tagbar window.
+let g:tagbar_show_linenumbers=0
+let g:tagbar_iconchars=['▸', '▾']

@@ -74,3 +74,7 @@ noremap <silent> <ESC>a ggVG
 "Emacs-like beginning and end of line at insert mode.
 imap <C-e> <C-o>$
 imap <C-a> <C-o>^
+
+"Shift + special movement key (<S-Left>, etc.) starts select mode
+set selectmode=key
+set keymodel=startsel

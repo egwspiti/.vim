@@ -78,6 +78,10 @@ noremap <silent> <ESC>v <C-w>v
 "Select all with <ESC> / alt + a
 noremap <silent> <ESC>a ggVG
 
+"Scroll the screen instead of the cursor with cursor keys
+nnoremap <UP> <C-e>j
+nnoremap <DOWN> <C-y>k
+
 "Emacs-like beginning and end of line at insert mode.
 imap <C-e> <C-o>$
 imap <C-a> <C-o>^

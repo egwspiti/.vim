@@ -3,6 +3,12 @@ filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" some beautiful color schemes
+Plugin 'michalbachowski/vim-wombat256mod'
+Plugin 'cdmedia/itg_flat_vim'
 
 set number
 set numberwidth=4

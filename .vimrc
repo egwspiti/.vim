@@ -33,3 +33,7 @@ set incsearch                     " Incremental search.
 set hlsearch                      " And highlight matches.
 set autowrite                     " Write a modified buffer on ctrl-z, :next, ...
 set splitright                    " On :vsplit, put new window to the right.
+
+"Map CTRL P/N to cycle through buffers.
+noremap <silent> <C-p> :bp<CR>
+noremap <silent> <C-n> :bn<CR>

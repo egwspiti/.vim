@@ -27,3 +27,4 @@ set title                         " Set window title for this terminal.
 set novisualbell                  " No beeping.
 set nobackup                      " Don't make a backup before overwriting a file.
 set nowritebackup                 " And again.
+set laststatus=2                  " Always show a status line.

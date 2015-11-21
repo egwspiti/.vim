@@ -29,3 +29,5 @@ set nobackup                      " Don't make a backup before overwriting a fil
 set nowritebackup                 " And again.
 set laststatus=2                  " Always show a status line.
 set encoding=utf-8                " Use utf-8 encoding.
+set incsearch                     " Incremental search.
+set hlsearch                      " And highlight matches.

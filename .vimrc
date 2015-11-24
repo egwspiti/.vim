@@ -16,6 +16,7 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-endwise'
 Plugin 'thoughtbot/vim-rspec'
 
+Plugin 'ctrlpvim/ctrlp.vim'
 " all of your Plugins must be added before the following line
 call vundle#end()                 " required
 
@@ -130,6 +131,17 @@ if executable('ag')
 	" Prefer ag over grep.
 	set grepprg=ag\ --nogroup\ --nocolor\ --hidden
 endif
+
+" ctlp.vim config
+"
+let g:ctrlp_map = '<C-t>'
+let g:ctrlp_cmd = 'CtrlP'
+if executable('ag')
+	" Use ag for listing files.
+	let g:ctrlp_user_command='ag %s -l --nocolor --hidden -g ""'
+endif
+
+nnoremap <Leader>b :CtrlPBuffer<CR>
 
 "tagbar
 "

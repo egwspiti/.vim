@@ -17,6 +17,7 @@ Plugin 'tpope/vim-endwise'
 Plugin 'thoughtbot/vim-rspec'
 
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'bling/vim-airline'
 " all of your Plugins must be added before the following line
 call vundle#end()                 " required
 
@@ -161,6 +162,10 @@ map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
+
+" Airline
+"
+let g:airline_powerline_fonts = 1
 
 augroup cul
 	au!

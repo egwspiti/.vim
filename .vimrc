@@ -20,7 +20,10 @@ Plugin 'ctrlpvim/ctrlp.vim'
 " all of your Plugins must be added before the following line
 call vundle#end()                 " required
 
-colo itg_flat                     " Use itg_flat color scheme.
+" itg_flat color scheme somehow adds extra ^^^ characters
+" should investigate more
+"  colo itg_flat                  " Use itg_flat color scheme.
+colo wombat256mod                 " Use wombat256mod color scheme.
 set number
 set numberwidth=4
 

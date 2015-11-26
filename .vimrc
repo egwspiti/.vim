@@ -145,6 +145,8 @@ if executable('ag')
 	" Use ag for listing files.
 	let g:ctrlp_user_command='ag %s -l --nocolor --hidden -g ""'
 endif
+let g:ctrlp_extensions=['tag', 'buffertag']
+let g:ctrlp_match_window = 'bottom,order:btt,min:1,max:10,results:100'
 
 nnoremap <Leader>b :CtrlPBuffer<CR>
 

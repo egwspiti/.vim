@@ -170,6 +170,7 @@ map <Leader>a :call RunAllSpecs()<CR>
 "
 let g:airline_powerline_fonts = 1
 let g:airline_theme='luna'
+let g:airline#extensions#tagbar#enabled = 0
 
 augroup cul
 	au!

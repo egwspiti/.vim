@@ -19,6 +19,8 @@ Plugin 'thoughtbot/vim-rspec'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
+
+Plugin 'atweiden/vim-citrus'
 " all of your Plugins must be added before the following line
 call vundle#end()                 " required
 

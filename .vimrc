@@ -21,6 +21,7 @@ Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
 
 Plugin 'atweiden/vim-citrus'
+Plugin 'SirVer/ultisnips'
 " all of your Plugins must be added before the following line
 call vundle#end()                 " required
 
@@ -173,6 +174,11 @@ map <Leader>a :call RunAllSpecs()<CR>
 let g:airline_powerline_fonts = 1
 let g:airline_theme='luna'
 let g:airline#extensions#tagbar#enabled = 0
+
+" UltiSnips
+"
+let g:UltiSnipsEditSplit = 'vertical'
+let g:UltiSnipsEnableSnipMate = 0
 
 augroup cul
 	au!

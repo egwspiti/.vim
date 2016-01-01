@@ -6,8 +6,3 @@ setl formatoptions-=ro
 setl relativenumber
 setl foldtext=VimFoldText()
 setl foldminlines=0
-
-iabbr bpry require 'pry'; binding.pry
-iabbr req require '
-iabbr aseq assert_equal
-iabbr dts def test_

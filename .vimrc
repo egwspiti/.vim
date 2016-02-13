@@ -135,6 +135,9 @@ nnoremap <Leader>e :vsp<Space>
 
 set lazyredraw                    " this might help with lag caused by relativenumber
 
+"Terminal settings
+set t_ut=						  " disable Background Color Erase
+
 if executable('ag')
 	" Prefer ag over grep.
 	set grepprg=ag\ --nogroup\ --nocolor\ --hidden

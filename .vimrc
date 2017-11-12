@@ -23,6 +23,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
 Plugin 'atweiden/vim-citrus'
 Plugin 'SirVer/ultisnips'
+Plugin 'vim-airline/vim-airline-themes'
 " all of your Plugins must be added before the following line
 call vundle#end()                 " required
 

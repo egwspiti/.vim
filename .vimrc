@@ -24,6 +24,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'atweiden/vim-citrus'
 Plugin 'SirVer/ultisnips'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'vim-scripts/upAndDown'
 " all of your Plugins must be added before the following line
 call vundle#end()                 " required
 
